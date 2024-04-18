@@ -1,0 +1,133 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 56px;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    
+}
+.left-header{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 200px;
+    top:40px;
+
+}
+.left-header-div{
+    display: grid;
+    grid-template-columns: 2fr 7fr;    
+    align-items: center;       
+    transform: 0.1s; 
+    height: 50px;
+
+
+}
+.left-header-rule{
+    width: 125px;
+    align-items: center;
+    color: rgb(41, 39, 39);
+    height: 1px;
+    box-shadow: none;
+}
+.left-header-div:hover{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(235, 231, 231);
+}
+.left-header-div:active{
+    border-radius: 1pc;
+    cursor: pointer;
+    background-color: rgb(217, 202, 202);
+    font-weight: bolder;
+
+}
+.left-header-div-img{
+    padding-left: 5px;
+    height: 24px;
+    margin-left: 5px
+}
+.left-header-div-txt{
+    font-size: 14px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.left{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.middle{
+    display: flex;
+    flex: 1;
+    max-width: 700px;
+    padding-left: 10px;
+    margin-left: 65px;
+    margin-right: 50px;
+    align-items: center;
+
+}
+.right{
+    align-items: right;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon-line{
+    height: 20px;
+    padding-left: 14px;
+}
+
+.icon-yt{
+    height:62px;
+    padding-left: 16px;
+}
+.search{
+    border-width: 1px;
+    border-radius: 1pc;
+    width: 500px;
+    height: 36px;
+    border-color: rgb(196, 193, 193);
+    border-style: solid;
+    box-shadow: inset 4px 4px 5px rgba(0,0,0,0.05);
+    margin-right:10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.search::placeholder{
+    font-family: Arial;
+    font-size: 16px;
+    padding-left: 10px;
+    vertical-align: center;
+}
+.icon-search{
+    height: 26px;
+
+}
+.icon-voice{
+    height: 56px;
+
+}
+.icon-live{
+    height: 28px;
+
+}
+.icon-short{
+    padding-left: 250px;
+    height: 32px;
+
+}
+.icon-bell{
+    height: 28px;
+
+}
+.icon-user{
+    height: 28px;
+
+}
